@@ -9,7 +9,7 @@ import streamlit as st
 """
 
 x = st.slider("First number", 1, 100, 2)
-y = st.slider("Second number", 1, 100, 3, .1)
+y = st.slider("Second number", 1, 100, 3, 0.1)
 
 prod = x * y
 
